@@ -1,0 +1,25 @@
+{
+    "name": "jitesoft/wp-base",
+    "description": "Internal base package for jitesoft wordpress plugins - not a plugin itself.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johannes Tegnér",
+            "email": "johannes@jitesoft.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.2|>=8",
+        "jitesoft/container": "4.1.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "files": [
+            "src/get.php",
+            "src/static.php"
+        ]
+    }
+}
